@@ -35,9 +35,7 @@ class ProductsController < ApplicationController
     @product.destroy
     redirect_to products_url
   end
-
-
-
+  
   private
    def product_params
     params.require(:product).permit(:name, :description, :price, :category_id)
