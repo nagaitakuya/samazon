@@ -71,7 +71,7 @@ Rails.application.configure do
       :address => "smtp.gmail.com",
       :port => 587,
       :user_name => ENV["GMAIL_ADDRESS"],
-      :password => ENV["GMAIL_2FACTER_PASSWORD"],
+      :password => ENV["GMAIL_2FACTOR_PASSWORD"],
       :authentication => :plain,
       :enable_starttls_auto => true
     }

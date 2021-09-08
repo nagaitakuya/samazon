@@ -1,5 +1,5 @@
 class Review < ApplicationRecord
-  belongs_to :prodrct
+  belongs_to :product
   belongs_to :user
 
   def save_review(review, review_params)
